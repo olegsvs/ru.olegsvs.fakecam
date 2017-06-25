@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FakeCam</string>
+    <string name="select_image">Выберите изображение</string>
+    <string name="io_exception_toast">Произошла ошибка. Приложение будет закрыто.</string>
+    <string name="not_select_toast">Не выборано ни одного изображения.</string>
+    <string name="read_image_progress">Считываем изображение, ждите.</string>
+    <string name="positive_button">@android:string/ok</string>
+    <string name="negative_button">@android:string/cancel</string>
+    <string name="load_app_progress">Загрузка приложений, ждите.</string>
+    <string name="dialog_title_app_choose">Выберите стандартное приложение камеры</string>
+    <string name="permission_write_external_message">Приложение запросит разрешение на запись во внешнюю память.</string>
+    <string name="confirm">Согласиться</string>
+    <string name="not_support_message">Данная функция не поддерживается.</string>
+</resources>

@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent cameraIntent = getIntent();
-        if (cameraIntent.getAction().equals(MediaStore.ACTION_IMAGE_CAPTURE)) {
-            startPickImages(cameraIntent);
+        if(cameraIntent.getAction()!=null && cameraIntent.getAction().equals(MediaStore.ACTION_IMAGE_CAPTURE)) {
+                startPickImages(cameraIntent);
         } else finish();
     }
 
